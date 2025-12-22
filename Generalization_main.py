@@ -6,7 +6,7 @@ import torch
 import torch.nn as nn
 import argparse
 from scipy.io import loadmat
-from utils import load_dataset,get_dataloader_Japan_site
+from utilis import load_dataset,get_dataloader_Japan_site
 import random
 from sklearn.metrics import confusion_matrix, roc_auc_score
 criterion = nn.CrossEntropyLoss()
@@ -177,5 +177,6 @@ for site_idx in range(0,4):
 
     classifier = GINNet(input_dim, output_dim, args, device).to(device)
     Exp = SubgraphGenerator(classifier, device).to(device)
+
 
 
