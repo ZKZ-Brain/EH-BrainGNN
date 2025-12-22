@@ -7,10 +7,10 @@ import torch.nn.functional as F
 criterion = torch.nn.CrossEntropyLoss()
 # criterion = torch.nn.BCELoss()
 
-class GNNExplainer(torch.nn.Module):
+class SubgraphGenerator(torch.nn.Module):
  
     def __init__(self, model, device):
-        super(GNNExplainer, self).__init__()
+        super(SubgraphGenerator, self).__init__()
 
         self.model = model
         self.device = device
