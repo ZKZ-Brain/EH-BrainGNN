@@ -41,7 +41,7 @@ end
 label = dummyvar(label);
 gender = dummyvar(gender);
 Mod=[gender(:,2), age, education, Head_motion];
-data_harmonized = combat(dat, site, Mod, 1);
+[data_harmonized,, combat_params] = combat(dat, site, Mod, 1);
 
 for i=1:1099
     Ha_corrmatrix = zeros(116,116);
