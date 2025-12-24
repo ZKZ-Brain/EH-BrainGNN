@@ -4,4 +4,5 @@ EH-BrainGNNï¼šEnsemble hybrid GNN framework for MDD Classification and Subtype ð
 
 </h2>
 
-## Overview
+## Architecture
+
