@@ -13,3 +13,6 @@ EH-BrainGNNï¼šEnsemble hybrid GNN framework for MDD Classification and Subtype ð
 ![](Schematic_network.png)
 
 **Figure 2 A schematic of the full network with parameter counts (A) and a clear statement of the role of the subgraph generator (B).**  
+
+## Questions, Suggestions, and Collaborations
+
